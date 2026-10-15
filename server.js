@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     <html>
       <head><title>Jenkins Assignment</title></head>
       <body>
-        <h1>Node.js Application Deployed Successfully!</h1>
+        <h1>Node.js Application Deployed!</h1>
         <p>Built and tested using Jenkins CI/CD.</p>
       </body>
     </html>
