@@ -1,0 +1,10 @@
+{
+  "name": "jenkins-nodejs-assignment",
+  "version": "1.0.0",
+  "description": "A beginner Node.js application for a Jenkins CI/CD assignment",
+  "main": "server.js",
+  "scripts": {
+    "build": "node --check server.js",
+    "test": "node --test"
+  }
+}
