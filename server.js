@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 });
 
 if (require.main === module) {
-  server.listen(PORT, "127.0.0.1", () => {
+  server.listen(PORT, "0.0.0.0", () => {
     console.log(`Application running at http://localhost:${PORT}`);
   });
 }
